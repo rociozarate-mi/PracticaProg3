@@ -9,7 +9,7 @@ public class ejercicio01
         //1. Dedeclaracion e inicilizacion de un arreglo de enteros"
 
         //Los valores por defecto son 0
-        int[] numeros = new int[3];
+        int[] numeros =  new int[3];
 
         //2. Asignacion de valores manual por indice
 
