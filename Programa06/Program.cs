@@ -64,7 +64,7 @@ class Program
 
             Console.ReadLine();
 
-            // VOTACIONESS
+            //VOTACIONESS
 
             Console.WriteLine("\n=== Sistema de Votaciones ===");
             const int EDAD_VOTANTE_MINIMA = 18;

@@ -8,7 +8,7 @@ class Program
         Console.WriteLine("Mi nombre es Rocio");
         Console.WriteLine("Estamos practicando"); 
         Console.WriteLine("Estudio en la UTN la tecnicatura en programacion");
-        Console.WriteLine("Aqui termina el programa");
+        Console.WriteLine("Aqui termina el  ejercicio");
        
     }
 }

@@ -47,7 +47,7 @@ class Program
             Console.WriteLine("---RESUMEN DE COMPRA ---");
             Console.WriteLine("Precio Unitario: " + precio);
             Console.WriteLine("Cantidad: " + cantidad);
-            Console.WriteLine("Total a Pagar: " + total);
+            Console.WriteLine("Total que debe Pagar: " + total);
 
 
 

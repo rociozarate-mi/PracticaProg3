@@ -54,7 +54,7 @@ class Program
             Console.Write("Ingresa la cantidad: ");
             int cantidad = int.Parse(Console.ReadLine());
             decimal totalCompra = precio * cantidad;
-            Console.WriteLine("El total a pagar es: $" + totalCompra);
+            Console.WriteLine("El total que debe  pagar es: $" + totalCompra);
 
             //calcular metros cuadrados de un terreno
             Console.WriteLine("Calcular metros cuadrados de un terreno:");

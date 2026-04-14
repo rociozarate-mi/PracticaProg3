@@ -62,7 +62,7 @@ class Program
             const decimal PORCENTAJE_PROPINA = 0.15; // 15% de propina
             decimal totalCuenta = 80.75;    
             decimal propinaCalculada = totalCuenta * PORCENTAJE_PROPINA;
-            Console.WriteLine("Total de la cuenta: " + SIMBOLO_PESO + totalCuenta);
+            Console.WriteLine("Total es: " + SIMBOLO_PESO + totalCuenta);
             Console.WriteLine("Porcentaje de propina: " + (PORCENTAJE_PROPINA * 100) + "%");
             Console.WriteLine("Propina calculada: " + SIMBOLO_PESO + propinaCalculada);
 

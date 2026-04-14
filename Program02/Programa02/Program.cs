@@ -58,7 +58,7 @@ class Program
             Console.Write("Ingresa la edad de la segunda persona: ");
             int edad4 = int.Parse(Console.ReadLine());
             int restaEdades = edad3 - edad4;
-            Console.WriteLine("La resta de las edades es: " + restaEdades);
+            Console.WriteLine("La resta es: " + restaEdades);
 
 
 

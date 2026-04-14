@@ -13,7 +13,7 @@ class Program
             Console.WriteLine("   Solo puede ser 'true' o 'false'.");
             Console.WriteLine("   ¿El curso está completado?: " + cursoCompletado);
 
-            Console.WriteLine("\nPresiona ENTER para cerrar.");
+            Console.WriteLine("Presiona ENTER para cerrar.");
             Console.ReadLine();
 
             //preguntar al usuario si le gusta la programación

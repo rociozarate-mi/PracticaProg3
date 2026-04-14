@@ -13,10 +13,10 @@ class Program
 
             // Carácter único (char) - Comillas simples ''
             char inicialNombre = 'A';
-            Console.WriteLine("\n5. TIPO CARÁCTER (char):");
+            Console.WriteLine("5. TIPO CARÁCTER (char):");
             Console.WriteLine("   Valor guardado: '" + inicialNombre + "'");
 
-            Console.WriteLine("\nPresiona ENTER para cerrar.");
+            Console.WriteLine("Presiona ENTER para cerrar.");
             Console.ReadLine();
 
             //pedir el nombre completo al usuario
