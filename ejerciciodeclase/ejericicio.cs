@@ -1,32 +1,30 @@
-namespace PracticaProg3;
+using System;
 
-public class ejericicio
+namespace PracticaProg3
 {
-    //guardo nombre y edades
-    string [] nombres = new string[20];
-    int [] edades = new int[20];
-    int cantidad =20;
-
-    //ingresamos datos 
-    public void ingresarDatos()
+    public class Ejercicio
     {
-        for (int i = 0; i < cantidad; i++)
+        public static void Main(string[] args)
         {
-            Console.Write("Ingrese el nombre de la persona : ", i + 1);
-            nombres[i] = Console.ReadLine();
-            Console.Write("Ingrese la edad de: ", nombres[i]);
-            edades[i] = int.Parse(Console.ReadLine());
-        }
+            string nombre;
+            int edad;
 
-        for (int i =0 ; i<cantidad; i++)
-        {
-            if (edades[i] > 30)
+            for (int i = 0; i < 20; i++)
             {
-                Console.WriteLine("Puede ingresar", nombres[i]);
-            }
-            else
-            {
-                Console.WriteLine("No puede ingresar", nombres[i]);
+                Console.Write("Ingrese el nombre de la persona " + (i + 1) + ": ");
+                nombre = Console.ReadLine();
+
+                Console.Write("Ingrese la edad de " + nombre + ": ");
+                edad = int.Parse(Console.ReadLine());
+
+                if (edad > 30)
+                {
+                    Console.WriteLine(nombre + " puede pasar");
+                }
+                else
+                {
+                    Console.WriteLine(nombre + " a la casa");
+                }
             }
         }
     }
